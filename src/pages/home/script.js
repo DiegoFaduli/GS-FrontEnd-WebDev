@@ -108,7 +108,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 
   
-  
+  document.getElementById('Contato').addEventListener('click', function(){
+    document.getElementById('Rodape').scrollIntoView({behavior: 'smooth'});
+  });
 
 });
 
