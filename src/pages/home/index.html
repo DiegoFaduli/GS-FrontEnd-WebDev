@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/fonts.css">
+    <link rel="stylesheet" href="/public/css/global.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/src/pages/home/script.js" defer></script>
+    <link rel="icon" href="/public/images/ICONE.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>AquaTech</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/public/images/AQUATECH.png" alt="logo">
+        <p>Solução</p>
+        <p>Benefícios</p>
+        <button id="Contato" class="btnCtt">Contato</button>
+        <p>Seções</p>
+        <button id="BtnUser" class="btnUser" ><img class="Userimg" src="/public/images/UserIMG2.png" alt="UserImg"></button>
+
+        <div id="LoginContainer" class="escondido">
+            <form id="FormLogin">
+                <h2>Login</h2>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button class="btnLogin" type="submit">Entrar</button>
+                <button class="btnLogin2" type="button" id="Btncancelar">Cancelar</button>
+            </form>
+        </div>
+    </header>
+
+    <section class="seçao1">
+        <h2 class="tituloS1">Nossa Solução</h2>
+        <div class="container">
+            <p class="textoS1">A solução visa abordar o acúmulo de lixo nas bocas de lobo e galerias de drenagem
+                pluvial. Que causam entupimentos, poluição da água e aumento dos custos operacionais das estações de
+                tratamento de esgoto.</p>
+            <div class="container-slider">
+                <button id="prev-button"><img src="/public/images/arrow.png" alt="prev-button"></button>
+                <div class="container-images">
+                    <img class="slider" src="/public/images/imagem_GS.jpg" alt="ImagemGS">
+                    <img class="slider" src="/public/images/imgCestoArduino.png" alt="cesto">
+                </div>
+                <button id="next-button"><img src="/public/images/arrow.png" alt="next-button"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="seçao2">
+        <h2 class="tituloS2">Tecnologia Utilizada</h2>
+        <div class="container2">
+            <p class="textoS2"> Um filtro de folhas de aço com furos milimétricos em conjunto com uma malha de ferro
+                para coletar dejetos, incluindo microplásticos.<br>
+                Um sistema de Arduino será empregado para medir o volume de água antes e depois de passar pelo filtro,
+                acionando a limpeza quando necessário.</p>
+            <img class="filtro" src="/public/images/FiltroIMG.jpg" alt="filtro">
+            <img class="arduino" src="/public/images/arduinoSUS.png" alt="arduino">
+        </div>
+        <button id="btnFiltro">Clique aqui para saber mais do filtro</button>
+    </section>
+
+    <section class="seçao3">
+        <h2 class="tituloS3">Objetivos pretendidos</h2>
+        <div class="container3">
+            <p class="textoS3">Os objetivos incluem a redução do acúmulo de resíduos nas redes de drenagem pluvial,
+                minimizando a poluição marinha e preservando ecossistemas aquáticos e biodiversidade.<br>
+                Além disso, busca-se proteger indústrias como pesca, turismo e agricultura, que dependem de água limpa,
+                enquanto promove o desenvolvimento sustentável.</p>
+            <img class="CanalPluvial" src="/public/images/CanalPluvial.png" alt="CanalPluvial">
+        </div>
+    </section>
+
+    <section class="seçao4">
+        <h2 class="tituloS4">Público a ser impactado</h2>
+        <div class="container4">
+            <p class="textoS4">O público impactado inclui residentes urbanos que se beneficiarão de uma infraestrutura
+                de drenagem mais eficiente e limpa.<br>
+                Além de indústrias e comunidades que dependem de recursos naturais não poluídos.</p>
+            <img class="ResidentesU" src="/public/images/residentes_urbanos.jpg" alt="residentes urbanos">
+        </div>
+    </section>
+
+    <section class="seçao5">
+        <h2 class="tituloS5">Benefícios oferecidos pela solução </h2>
+        <div class="container5">
+            <p class="textoS5">Incluem a redução da poluição marinha e da contaminação da água, a preservação de
+                ecossistemas aquáticos e a promoção do desenvolvimento sustentável.<br>
+                Além disso, a solução oferece uma abordagem econômica e socialmente responsável para o tratamento de
+                resíduos.<br><br>
+                Para entender mais o combate ao lixo marinho, clique no botão a seguir
+            </p>
+            <img class="ceu" src="/public/images/Ceu.png" alt="Ceu dividido">
+        </div>
+        <button id="btnSaibaMais">Saiba mais</button>
+    </section>
+
+    <section class="seçao6">
+        <div class="container6">
+            <div class="parte1">
+                <h2 class="tituloS6">Impacto no dia a dia</h2>
+                <p class="textoS6">A solução melhora a qualidade de vida ao reduzir doenças transmitidas pela água,
+                    garantir um ambiente mais limpo e saudável.<br> Além disso, reuso dos resíduos promove
+                    conscientização sobre desperdício e reciclagem, contribuindo para a proteção de atividades
+                    econômicas locais.</p>
+            </div>
+
+            <div class="comentarios">
+                <h2 class="tituloS6">Comentários</h2>
+                <form class="formulario">
+                    <input type="text" id="inputUsuario" placeholder="Deixe seu comentario...">
+                    <button id="btnComentar">Salvar comentário</button>
+                </form>
+                <ul id="listaComentarios"></ul>
+            </div>
+        </div>
+    </section>
+
+    
+
+</body>
+
+</html>
