@@ -415,6 +415,22 @@ header {
   cursor: pointer;
 }
 
+.rodape {
+  color: white;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.containerR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.textoR {
+  font-size: 20px;
+}
 
 
