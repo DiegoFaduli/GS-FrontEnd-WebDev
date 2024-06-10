@@ -5,17 +5,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   let currentSlide = 0;
 
-  // Função para esconder todos os slides
+  
   function hideSlider() {
       sliders.forEach(slide => slide.style.opacity = '0');
   }
 
-  // Função para mostrar o slide atual
+  
   function showSlider() {
       sliders[currentSlide].style.opacity = '1';
   }
 
-  // Inicializa o carrossel mostrando o primeiro slide
+ 
   showSlider();
 
   function nextSlider() {
